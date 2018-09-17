@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway');
+
+
+header {
+	background-color: #FFF;
+	margin: 20px;
+
+	}
+body {
+	font-family: 'Raleway', bold;
+}
+
+body span{
+	font-family: 'Pacifico';
+	font-size: 150px;
+}
+body p {
+	font-size: 20px;
+}
+
+.nav {
+	color: #000000;
+	background-color: #FFF;
+	
+	
+}
+
+.nav-item:hover {
+	background-color: #cc9999;
+	color: #FFF;
+	
+	
+
+}
+
+.caption-center {
+	font-size: 600;
+	padding-bottom: 300px;
+	
+}
+
+#sec-photo {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #000000;
+	font-size: 100px;
+}
+
+
+.btn-rose {
+	background-color: #CC9999;
+	color: #fff;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+.btn-rose:hover{
+	background-color:#d4b30d;
+	color: #fff;}
+
+.btn-white {
+	background-color:#FFF;
+	color: #CC9999;
+	border-radius: 0;
+	border:0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+.btn-white:hover{
+	background-color:#d4b30d;
+	color: #FFF;}
+#sec-food{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #CC9999;
+	color: #FFF;
+	font-size: 100px;
+}
+
+.cuadro-blanco{
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;}
+
+#sec-logo{
+	padding-bottom: 100px;
+	padding-top: 100px;
+	font-size: 100px;
+}
+
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer h3 {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 26px;
+	
+}
+
+footer h3 span {
+	color: #00000;
+
+}
+
+.redes a {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #FFF;
+	display: block;
+	border-radius: 100%;
+	color: #FFF;
+	text-decoration: none;
+	
+}
+
+.titulo {
+	background-color: #CC9999;
+	color: #FFF;
+}
+#sec-hab h1 {
+	background-color: #d4b30d;
+	color: #FFF;
+	padding-top: 50px;
+}
+
+#sec-content h5{
+	padding-top: 50px;
+}
+.pad {
+	padding-bottom: 50px;
+}
+.redes {
+	margin: 45px 0; 
+	
+}
+.redes li{
+	display: inline-block;
+	transition: all ease 0.3s;
+}
+
+
+.redes a:hover {
+	background-color: #CC9999;
+	color: #FFF;
+	transition: all ease 0.3s;
+}
+
+footer p a:hover{
+	
+	color: #f54f15;
+} 
+
+.titulo {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+.ocultar {
+	display: none;
+}
+
+#sec-hab{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#sec-hab h1 {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#sec-content {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.info-texto h3{
+	color: #fff;
+	font-weight: 600;
+
+}
+
+#sec-map { 
+align-content: center;
+
+padding-bottom: 100px;}
+
+#sec-map h2{ 
+	padding-top: 50px;
+    font-family:Arial;}
+
+#sec-map h1{ 
+font-size: 100;
+padding-bottom: 50px;
+padding-top: 50px;
+color: #FFF;
+background-color: #CC9999;}
+
+#sec-map h3{ 
+padding-bottom: 100px;
+padding-top: 0px;
+}
+
+#sec-map .row {
+	
+	padding-top: 50px;
+}
+
+/* Diseño Tableta y Móvil (xs y sm)*/
+@media (max-width:768px){
+
+	#sec-hab article{
+		margin-top: 10px;
+	}
+}
+
+
+
+
+/* Diseño Tableta (sm)*/
+@media (min-width:480px) and (max-width:768px){
+	
+	
+}
